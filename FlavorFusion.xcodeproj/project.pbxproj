@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */; };
-		E1FCCEF12C7B134100993225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEF02C7B134100993225 /* ContentView.swift */; };
+		E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEF02C7B134100993225 /* HomeView.swift */; };
 		E1FCCEF32C7B134400993225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FCCEF22C7B134400993225 /* Assets.xcassets */; };
 		E1FCCEF62C7B134400993225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FCCEF52C7B134400993225 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		E1FCCEEB2C7B134100993225 /* FlavorFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorFusionApp.swift; sourceTree = "<group>"; };
-		E1FCCEF02C7B134100993225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1FCCEF02C7B134100993225 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E1FCCEF22C7B134400993225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1FCCEF52C7B134400993225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		E1FCCEED2C7B134100993225 /* FlavorFusion */ = {
 			isa = PBXGroup;
 			children = (
+				E1FCCEFC2C7B1A1200993225 /* Scenes */,
 				E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */,
-				E1FCCEF02C7B134100993225 /* ContentView.swift */,
 				E1FCCEF22C7B134400993225 /* Assets.xcassets */,
 				E1FCCEF42C7B134400993225 /* Preview Content */,
 			);
@@ -65,6 +65,22 @@
 				E1FCCEF52C7B134400993225 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1FCCEFC2C7B1A1200993225 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCCEFD2C7B1A1B00993225 /* HomeView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E1FCCEFD2C7B1A1B00993225 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCCEF02C7B134100993225 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FCCEF12C7B134100993225 /* ContentView.swift in Sources */,
+				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
