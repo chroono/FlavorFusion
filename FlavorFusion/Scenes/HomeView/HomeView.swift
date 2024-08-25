@@ -26,7 +26,7 @@ struct HomeView: View {
                 Text("Flavor Fusion")
                     .font(.title)
                     .foregroundStyle(.red)
-                Text("The best dishes in one place")
+                Text("Najlepsze dania w jednym miejscu")
                     .font(.title2)
             }
         }
