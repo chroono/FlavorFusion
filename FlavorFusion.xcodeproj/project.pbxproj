@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */; };
 		E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */; };
 		E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEF02C7B134100993225 /* HomeView.swift */; };
 		E1FCCEF32C7B134400993225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FCCEF22C7B134400993225 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
 		E1FCCEEB2C7B134100993225 /* FlavorFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorFusionApp.swift; sourceTree = "<group>"; };
 		E1FCCEF02C7B134100993225 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1D1998A2C7CF69A00C9EEF2 /* AddingRecipeView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */,
+			);
+			path = AddingRecipeView;
+			sourceTree = "<group>";
+		};
 		E1FCCEE22C7B134100993225 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		E1FCCEFC2C7B1A1200993225 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E1D1998A2C7CF69A00C9EEF2 /* AddingRecipeView */,
 				E1FCCEFE2C7B1D1300993225 /* SettingsView */,
 				E1FCCEFD2C7B1A1B00993225 /* HomeView */,
 			);
@@ -183,6 +194,7 @@
 				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
+				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
