@@ -28,6 +28,10 @@ struct HomeView: View {
                     .foregroundStyle(.red)
                 Text("Najlepsze dania w jednym miejscu")
                     .font(.title2)
+                Button("Kontynuuj") {
+                    // action
+                }
+                .buttonStyle(customButton())
             }
         }
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */; };
+		E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */; };
 		E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */; };
 		E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */; };
 		E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEF02C7B134100993225 /* HomeView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
 		E1FCCEEB2C7B134100993225 /* FlavorFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorFusionApp.swift; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1B72C992C7E48D500C8C01E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */,
+				E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		E1D1998A2C7CF69A00C9EEF2 /* AddingRecipeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +80,7 @@
 		E1FCCEED2C7B134100993225 /* FlavorFusion */ = {
 			isa = PBXGroup;
 			children = (
+				E1B72C992C7E48D500C8C01E /* Components */,
 				E1FCCEFC2C7B1A1200993225 /* Scenes */,
 				E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */,
 				E1FCCEF22C7B134400993225 /* Assets.xcassets */,
@@ -189,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */,
 				E1FCCF032C7B1E9000993225 /* LanguageRow.swift in Sources */,
 				E1FCCF002C7B1D2C00993225 /* SettingsView.swift in Sources */,
 				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
+				E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
 				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,

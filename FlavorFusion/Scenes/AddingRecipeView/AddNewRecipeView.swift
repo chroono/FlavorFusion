@@ -44,18 +44,16 @@ struct AddNewRecipeView: View {
             VStack {
                 Text("Sposób przygotowania")
                     .font(.title3)
-                TextField("Napisz sposób pzygotawania", text: $preparation)
+                TextField("Napisz sposób przygotowania", text: $preparation)
                     .textFieldStyle(OvalTextField())
-                
             }
         }
         Spacer()
         VStack {
-            Button {
-                // action
-            } label: {
+            Button(action: {}, label: {
                 Text("Dodaj")
-            }
+            })
+            .buttonStyle(customButton())
 
         }
     }
@@ -64,16 +62,5 @@ struct AddNewRecipeView: View {
 #Preview {
     AddNewRecipeView()
 }
-
-struct OvalTextField: TextFieldStyle {
-    func _body(configuration: TextField<Self._Label>) -> some View {
-        configuration
-            .padding(10)
-            .background(Color.white)
-            .clipShape(RoundedRectangle(cornerRadius: 20))
-            .shadow(color: .gray, radius: 5)
-    }
-}
-
 
 
