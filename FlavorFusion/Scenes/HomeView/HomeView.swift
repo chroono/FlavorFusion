@@ -11,13 +11,30 @@ struct HomeView: View {
     
     @AppStorage("firstTime") var firstTime: Bool = true
     
+    let columns = [
+        GridItem(.fixed(50)),
+        GridItem(.adaptive(minimum: 300))
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack() {
+            ScrollView {
+                LazyHGrid(rows: columns, content: {
+                    
+                })
+            }
+            .navigationTitle("Flavor Fushion")
+            .toolbarBackground(.ultraThinMaterial, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbar {
+                Button(action: {
+                    
+                }, label: {
+                    Image(systemName: "plus")
+                })
+            }
         }
+
         .sheet(isPresented: $firstTime) {
             VStack(alignment: .leading) {
                 Image(systemName: "command.square.fill")
@@ -36,6 +53,7 @@ struct HomeView: View {
         }
     }
 }
+
 
 #Preview {
     HomeView()
