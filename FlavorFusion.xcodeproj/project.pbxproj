@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */; };
 		E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */; };
+		E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */; };
 		E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */; };
 		E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */; };
 		E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
 		E1FCCEEB2C7B134100993225 /* FlavorFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				E1FCCEFC2C7B1A1200993225 /* Scenes */,
 				E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */,
 				E1FCCEF22C7B134400993225 /* Assets.xcassets */,
+				E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */,
 				E1FCCEF42C7B134400993225 /* Preview Content */,
 			);
 			path = FlavorFusion;
@@ -181,11 +184,12 @@
 			};
 			buildConfigurationList = E1FCCEE62C7B134100993225 /* Build configuration list for PBXProject "FlavorFusion" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = pl;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = E1FCCEE22C7B134100993225;
 			productRefGroup = E1FCCEEC2C7B134100993225 /* Products */;
@@ -204,6 +208,7 @@
 			files = (
 				E1FCCEF62C7B134400993225 /* Preview Assets.xcassets in Resources */,
 				E1FCCEF32C7B134400993225 /* Assets.xcassets in Resources */,
+				E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

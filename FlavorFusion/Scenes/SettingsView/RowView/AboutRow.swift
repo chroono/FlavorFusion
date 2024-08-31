@@ -10,7 +10,7 @@ import SwiftUI
 struct AboutRow: View {
     var body: some View {
         HStack {
-            Text("Version: 0.0.1")
+            Text("Wersja: 0.0.1")
         }
     }
 }

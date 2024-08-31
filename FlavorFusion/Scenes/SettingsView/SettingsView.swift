@@ -10,10 +10,10 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         List {
-            Section(header: Text("Language")) {
+            Section(header: Text("Język")) {
                 LanguageRow()
             }
-            Section(header: Text("About")) {
+            Section(header: Text("O")) {
                 AboutRow()
             }
         }
