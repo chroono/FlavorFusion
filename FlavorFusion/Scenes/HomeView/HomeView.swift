@@ -12,7 +12,7 @@ struct HomeView: View {
     @AppStorage("firstTime") var firstTime: Bool = true
     
     let columns = [
-        GridItem(.fixed(50)),
+        GridItem(.fixed(150)),
         GridItem(.adaptive(minimum: 300))
     ]
     
@@ -26,13 +26,6 @@ struct HomeView: View {
             .navigationTitle("Flavor Fushion")
             .toolbarBackground(.ultraThinMaterial, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
-            .toolbar {
-                Button(action: {
-                    
-                }, label: {
-                    Image(systemName: "plus")
-                })
-            }
         }
 
         .sheet(isPresented: $firstTime) {
