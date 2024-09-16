@@ -19,12 +19,11 @@ struct AddNewRecipeView: View {
             Button {
                 // action
             } label: {
-                Image(systemName: "opticaldiscdrive.fill")
+                Image(.dish)
                     .resizable()
                     .frame(width: 150, height: 150)
                     .padding()
             }
-            .border(Color.black)
             HStack {
                 Text("Czas przygotowania:")
                     .font(.title3)
