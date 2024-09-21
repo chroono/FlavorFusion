@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RecipeViewModel {
+struct RecipeModel {
     var preparationTime: String
     var principle: String
     var preparation: String}

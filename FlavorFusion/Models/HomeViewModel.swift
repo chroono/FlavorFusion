@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HomeViewModel: Identifiable {
+struct HomeModel: Identifiable {
     var id = UUID()
     var image = Data()
     var title: String

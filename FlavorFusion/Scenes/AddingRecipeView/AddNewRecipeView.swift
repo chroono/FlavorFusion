@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AddNewRecipeView: View {
     
+    @ObservedObject var vm: AddNewRecipeViewModel
+    
     @State private var preparationTime: String = ""
     @State private var principle: String = ""
     @State private var preparation: String = ""

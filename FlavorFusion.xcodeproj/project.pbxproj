@@ -13,6 +13,10 @@
 		E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */; };
 		E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */; };
 		E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */; };
+		E1C96C772C9F47F400C1BD53 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C96C762C9F47F400C1BD53 /* HomeViewModel.swift */; };
+		E1C96C792C9F483E00C1BD53 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C96C782C9F483E00C1BD53 /* SettingsViewModel.swift */; };
+		E1C96C7B2C9F485A00C1BD53 /* AddNewRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C96C7A2C9F485A00C1BD53 /* AddNewRecipeViewModel.swift */; };
+		E1C96C7D2C9F495B00C1BD53 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C96C7C2C9F495B00C1BD53 /* RecipeViewModel.swift */; };
 		E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */; };
 		E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */; };
 		E1D4BE4F2C974CD600718D71 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4BE4E2C974CD600718D71 /* CustomTabBar.swift */; };
@@ -32,6 +36,10 @@
 		E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E1C96C762C9F47F400C1BD53 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E1C96C782C9F483E00C1BD53 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		E1C96C7A2C9F485A00C1BD53 /* AddNewRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeViewModel.swift; sourceTree = "<group>"; };
+		E1C96C7C2C9F495B00C1BD53 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
 		E1D4BE4E2C974CD600718D71 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
@@ -80,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */,
+				E1C96C7C2C9F495B00C1BD53 /* RecipeViewModel.swift */,
 			);
 			path = RecipeView;
 			sourceTree = "<group>";
@@ -88,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */,
+				E1C96C7A2C9F485A00C1BD53 /* AddNewRecipeViewModel.swift */,
 			);
 			path = AddingRecipeView;
 			sourceTree = "<group>";
@@ -144,6 +154,7 @@
 		E1FCCEFD2C7B1A1B00993225 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				E1C96C762C9F47F400C1BD53 /* HomeViewModel.swift */,
 				E1FCCEF02C7B134100993225 /* HomeView.swift */,
 			);
 			path = HomeView;
@@ -154,6 +165,7 @@
 			children = (
 				E1FCCF012C7B1E3600993225 /* RowView */,
 				E1FCCEFF2C7B1D2C00993225 /* SettingsView.swift */,
+				E1C96C782C9F483E00C1BD53 /* SettingsViewModel.swift */,
 			);
 			path = SettingsView;
 			sourceTree = "<group>";
@@ -242,14 +254,18 @@
 				E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */,
 				E17E28482C98B486003B6771 /* HomeViewModel.swift in Sources */,
 				E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */,
+				E1C96C7D2C9F495B00C1BD53 /* RecipeViewModel.swift in Sources */,
 				E1FCCF032C7B1E9000993225 /* LanguageRow.swift in Sources */,
 				E1FCCF002C7B1D2C00993225 /* SettingsView.swift in Sources */,
+				E1C96C792C9F483E00C1BD53 /* SettingsViewModel.swift in Sources */,
 				E17E284A2C98B4E9003B6771 /* AddNewRecipeViewModel.swift in Sources */,
 				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
 				E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */,
 				E1D4BE4F2C974CD600718D71 /* CustomTabBar.swift in Sources */,
+				E1C96C772C9F47F400C1BD53 /* HomeViewModel.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
+				E1C96C7B2C9F485A00C1BD53 /* AddNewRecipeViewModel.swift in Sources */,
 				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,
 				E17E284C2C98B581003B6771 /* RecipeViewModel.swift in Sources */,
 			);
