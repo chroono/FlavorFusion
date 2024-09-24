@@ -16,8 +16,6 @@ struct OvalTextField: TextFieldStyle {
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .shadow(color: .gray, radius: 5)
     }
-    
-
 }
 
 

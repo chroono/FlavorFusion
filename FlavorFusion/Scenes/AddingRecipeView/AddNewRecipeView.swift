@@ -6,22 +6,21 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct AddNewRecipeView: View {
-    
-    @ObservedObject var vm: AddNewRecipeViewModel
     
     @State private var preparationTime: String = ""
     @State private var principle: String = ""
     @State private var preparation: String = ""
-    
-    
+
+    @State var dishImage: UIImage?
+    @State var photosPickerItem: PhotosPickerItem?
+
     var body: some View {
         VStack {
-            Button {
-                // action
-            } label: {
-                Image(.dish)
+            PhotosPicker(selection: $photosPickerItem, matching: .images) {
+                Image(uiImage: dishImage ?? UIImage(resource: .dish))
                     .resizable()
                     .frame(width: 150, height: 150)
                     .padding()
@@ -56,6 +55,20 @@ struct AddNewRecipeView: View {
             })
             .buttonStyle(customButton())
 
+        }
+        .onChange(of: photosPickerItem) { _, _ in
+            Task {
+                if let photosPickerItem,
+                   let data = try? await photosPickerItem.loadTransferable(type: Data.self) {
+                    if let image = UIImage(data: data) {
+                    dishImage = image
+                    }
+                    
+                }
+                photosPickerItem = nil
+            }
+        
+        
         }
     }
 }

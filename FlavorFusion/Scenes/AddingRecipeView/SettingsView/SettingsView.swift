@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    @ObservedObject var vm: SettingsViewModel
+    
     
     var body: some View {
         List {

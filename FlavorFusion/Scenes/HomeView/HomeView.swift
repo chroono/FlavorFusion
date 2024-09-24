@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @AppStorage("firstTime") var firstTime: Bool = true
-    @ObservedObject var vm: HomeViewModel
+    
 
     let columns = [
         GridItem(.fixed(150)),
