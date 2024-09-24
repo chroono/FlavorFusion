@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */,
-				E1FCCEFE2C7B1D1300993225 /* SettingsView */,
 			);
 			path = AddingRecipeView;
 			sourceTree = "<group>";
@@ -134,6 +133,7 @@
 		E1FCCEFC2C7B1A1200993225 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E1FCCEFE2C7B1D1300993225 /* SettingsView */,
 				E1CCDF5E2C7F996A00BFDD67 /* RecipeView */,
 				E1D1998A2C7CF69A00C9EEF2 /* AddingRecipeView */,
 				E1FCCEFD2C7B1A1B00993225 /* HomeView */,
