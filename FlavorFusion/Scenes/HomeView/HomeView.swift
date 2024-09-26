@@ -14,7 +14,12 @@ struct HomeView: View {
     var body: some View {
             NavigationStack {
             ScrollView {
-                
+                ForEach(1..<5) {_ in
+                    Image(systemName: "house")
+                        .resizable()
+                        .frame(width: .infinity, height: 300)
+   
+                }
             }
             .navigationTitle("Flavor Fushion")
             .toolbarBackground(.ultraThinMaterial, for: .navigationBar)
