@@ -11,23 +11,16 @@ struct HomeView: View {
     
     @AppStorage("firstTime") var firstTime: Bool = true
     
-
-    let columns = [
-        GridItem(.fixed(150)),
-        GridItem(.adaptive(minimum: 300))
-    ]
-    
     var body: some View {
-        NavigationStack() {
+            NavigationStack {
             ScrollView {
-                LazyHGrid(rows: columns, content: {
-                    
-                })
+                
             }
             .navigationTitle("Flavor Fushion")
             .toolbarBackground(.ultraThinMaterial, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
-        }
+            }
+        
 
         .sheet(isPresented: $firstTime) {
             VStack(alignment: .leading) {
@@ -42,7 +35,7 @@ struct HomeView: View {
                 Button("Kontynuuj") {
                     // action
                 }
-                .buttonStyle(customButton())
+                .buttonStyle(StyleButton())
             }
         }
     }

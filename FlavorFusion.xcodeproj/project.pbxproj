@@ -10,12 +10,11 @@
 		E17E28482C98B486003B6771 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E28472C98B486003B6771 /* HomeViewModel.swift */; };
 		E17E284A2C98B4E9003B6771 /* AddNewRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E28492C98B4E9003B6771 /* AddNewRecipeViewModel.swift */; };
 		E17E284C2C98B581003B6771 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E284B2C98B581003B6771 /* RecipeViewModel.swift */; };
-		E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */; };
-		E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */; };
+		E1B72C9B2C7E48E700C8C01E /* StyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */; };
+		E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */; };
 		E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */; };
 		E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */; };
 		E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */; };
-		E1D4BE4F2C974CD600718D71 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4BE4E2C974CD600718D71 /* CustomTabBar.swift */; };
 		E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */; };
 		E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FCCEF02C7B134100993225 /* HomeView.swift */; };
 		E1FCCEF32C7B134400993225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FCCEF22C7B134400993225 /* Assets.xcassets */; };
@@ -29,12 +28,11 @@
 		E17E28472C98B486003B6771 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E17E28492C98B4E9003B6771 /* AddNewRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeViewModel.swift; sourceTree = "<group>"; };
 		E17E284B2C98B581003B6771 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
-		E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextField.swift; sourceTree = "<group>"; };
+		E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
 		E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E1CCDF5F2C7F997A00BFDD67 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
-		E1D4BE4E2C974CD600718D71 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		E1FCCEEB2C7B134100993225 /* FlavorFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorFusionApp.swift; sourceTree = "<group>"; };
 		E1FCCEF02C7B134100993225 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -69,9 +67,8 @@
 		E1B72C992C7E48D500C8C01E /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E1B72C9A2C7E48E700C8C01E /* CustomTextField.swift */,
-				E1B72C9C2C7E49A400C8C01E /* CustomButton.swift */,
-				E1D4BE4E2C974CD600718D71 /* CustomTabBar.swift */,
+				E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */,
+				E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -195,7 +192,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					E1FCCEEA2C7B134100993225 = {
 						CreatedOnToolsVersion = 15.4;
@@ -241,13 +238,12 @@
 			files = (
 				E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */,
 				E17E28482C98B486003B6771 /* HomeViewModel.swift in Sources */,
-				E1B72C9B2C7E48E700C8C01E /* CustomTextField.swift in Sources */,
+				E1B72C9B2C7E48E700C8C01E /* StyleTextField.swift in Sources */,
 				E1FCCF032C7B1E9000993225 /* LanguageRow.swift in Sources */,
 				E1FCCF002C7B1D2C00993225 /* SettingsView.swift in Sources */,
 				E17E284A2C98B4E9003B6771 /* AddNewRecipeViewModel.swift in Sources */,
 				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
-				E1B72C9D2C7E49A400C8C01E /* CustomButton.swift in Sources */,
-				E1D4BE4F2C974CD600718D71 /* CustomTabBar.swift in Sources */,
+				E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
 				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,
@@ -263,6 +259,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -326,6 +323,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -392,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,6 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

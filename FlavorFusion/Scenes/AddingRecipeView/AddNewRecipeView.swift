@@ -29,7 +29,7 @@ struct AddNewRecipeView: View {
                 Text("Czas przygotowania:")
                     .font(.title3)
                 TextField("Czas", text: $preparationTime)
-                    .textFieldStyle(OvalTextField())
+                    .textFieldStyle(StyleTextField())
             }
             .padding()
             VStack {
@@ -37,7 +37,7 @@ struct AddNewRecipeView: View {
                     Text("Składniki:")
                         .font(.title3)
                     TextField("Dodaj składnik", text: $principle)
-                        .textFieldStyle(OvalTextField())
+                        .textFieldStyle(StyleTextField())
                 }
                 .padding()
             }
@@ -45,7 +45,7 @@ struct AddNewRecipeView: View {
                 Text("Sposób przygotowania")
                     .font(.title3)
                 TextField("Podaj sposób przygotowania", text: $preparation)
-                    .textFieldStyle(OvalTextField())
+                    .textFieldStyle(StyleTextField())
             }
         }
         Spacer()
@@ -53,7 +53,7 @@ struct AddNewRecipeView: View {
             Button(action: {}, label: {
                 Text("Dodaj")
             })
-            .buttonStyle(customButton())
+            .buttonStyle(StyleButton())
 
         }
         .onChange(of: photosPickerItem) { _, _ in

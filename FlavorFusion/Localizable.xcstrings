@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "pl",
   "strings" : {
+    "Add recipe" : {
+
+    },
     "Czas" : {
 
     },
@@ -17,6 +20,9 @@
 
     },
     "Flavor Fusion" : {
+
+    },
+    "Home" : {
 
     },
     "Język" : {
@@ -219,6 +225,9 @@
 
     },
     "Podaj sposób przygotowania" : {
+
+    },
+    "Settings" : {
 
     },
     "Składniki:" : {
