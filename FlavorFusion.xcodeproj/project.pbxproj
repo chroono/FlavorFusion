@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E130E6EC2CAF244C00FCACBF /* AddNewRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130E6EB2CAF244C00FCACBF /* AddNewRecipeViewModel.swift */; };
+		E130E6EE2CAF27DB00FCACBF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130E6ED2CAF27DB00FCACBF /* HomeViewModel.swift */; };
 		E1333B332CA5D39600AD2CB5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1333B312CA5D39600AD2CB5 /* Model.xcdatamodeld */; };
 		E1333B352CA5D48C00AD2CB5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */; };
 		E1333B372CA5D5AE00AD2CB5 /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */; };
-		E17E28482C98B486003B6771 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E28472C98B486003B6771 /* HomeViewModel.swift */; };
-		E17E284A2C98B4E9003B6771 /* AddNewRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E28492C98B4E9003B6771 /* AddNewRecipeViewModel.swift */; };
-		E17E284C2C98B581003B6771 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E284B2C98B581003B6771 /* RecipeViewModel.swift */; };
 		E1B72C9B2C7E48E700C8C01E /* StyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */; };
 		E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */; };
 		E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */; };
@@ -28,12 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E130E6EB2CAF244C00FCACBF /* AddNewRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeViewModel.swift; sourceTree = "<group>"; };
+		E130E6ED2CAF27DB00FCACBF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E1333B322CA5D39600AD2CB5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
-		E17E28472C98B486003B6771 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		E17E28492C98B4E9003B6771 /* AddNewRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeViewModel.swift; sourceTree = "<group>"; };
-		E17E284B2C98B581003B6771 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextField.swift; sourceTree = "<group>"; };
 		E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
 		E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -70,16 +68,6 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		E17E28462C98B471003B6771 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E17E28472C98B486003B6771 /* HomeViewModel.swift */,
-				E17E28492C98B4E9003B6771 /* AddNewRecipeViewModel.swift */,
-				E17E284B2C98B581003B6771 /* RecipeViewModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		E1B72C992C7E48D500C8C01E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E1D1998B2C7CF6C000C9EEF2 /* AddNewRecipeView.swift */,
+				E130E6EB2CAF244C00FCACBF /* AddNewRecipeViewModel.swift */,
 			);
 			path = AddingRecipeView;
 			sourceTree = "<group>";
@@ -125,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				E1333B302CA5D37A00AD2CB5 /* Database */,
-				E17E28462C98B471003B6771 /* Models */,
 				E1B72C992C7E48D500C8C01E /* Components */,
 				E1FCCEFC2C7B1A1200993225 /* Scenes */,
 				E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */,
@@ -159,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				E1FCCEF02C7B134100993225 /* HomeView.swift */,
+				E130E6ED2CAF27DB00FCACBF /* HomeViewModel.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -253,21 +242,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E130E6EE2CAF27DB00FCACBF /* HomeViewModel.swift in Sources */,
 				E1CCDF602C7F997A00BFDD67 /* RecipeView.swift in Sources */,
 				E1333B352CA5D48C00AD2CB5 /* PersistenceController.swift in Sources */,
-				E17E28482C98B486003B6771 /* HomeViewModel.swift in Sources */,
 				E1B72C9B2C7E48E700C8C01E /* StyleTextField.swift in Sources */,
 				E1FCCF032C7B1E9000993225 /* LanguageRow.swift in Sources */,
 				E1FCCF002C7B1D2C00993225 /* SettingsView.swift in Sources */,
 				E1333B372CA5D5AE00AD2CB5 /* DBRepository.swift in Sources */,
-				E17E284A2C98B4E9003B6771 /* AddNewRecipeViewModel.swift in Sources */,
 				E1FCCEF12C7B134100993225 /* HomeView.swift in Sources */,
 				E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
 				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,
+				E130E6EC2CAF244C00FCACBF /* AddNewRecipeViewModel.swift in Sources */,
 				E1333B332CA5D39600AD2CB5 /* Model.xcdatamodeld in Sources */,
-				E17E284C2C98B581003B6771 /* RecipeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,9 +2,9 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
     <entity name="Dish" representedClassName="Dish" syncable="YES" codeGenerationType="class">
         <attribute name="iD" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="imageDish" optional="YES" attributeType="Binary"/>
-        <attribute name="preparation" optional="YES" attributeType="String"/>
-        <attribute name="preparationTime" optional="YES" attributeType="String"/>
-        <attribute name="principle" optional="YES" attributeType="String"/>
+        <attribute name="imageDish" attributeType="Binary"/>
+        <attribute name="preparation" attributeType="String"/>
+        <attribute name="preparationTime" attributeType="String"/>
+        <attribute name="principle" attributeType="String"/>
     </entity>
 </model>
