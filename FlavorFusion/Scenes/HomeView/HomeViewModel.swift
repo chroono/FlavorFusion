@@ -12,12 +12,6 @@ class HomeViewModel: ObservableObject {
     
     let dataService = Repository()
     
-    @Published var id = UUID()
-    @Published var preparationTime: String
-    @Published var principle: String
-    @Published var preparation: String
-    @Published var imageDish = Data()
-    
     init() {
         getAllDishes()
     }
