@@ -16,6 +16,8 @@ struct AddNewRecipeView: View {
 
     @State var dishImage: UIImage?
     @State var photosPickerItem: PhotosPickerItem?
+    
+    @ObservedObject var vm: AddNewRecipeViewModel
 
     var body: some View {
         VStack {

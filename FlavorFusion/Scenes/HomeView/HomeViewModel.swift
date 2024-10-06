@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreData
 
 class HomeViewModel: ObservableObject {
     @Published var dishes: [Dish] = []
