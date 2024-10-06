@@ -12,6 +12,7 @@
 		E1333B332CA5D39600AD2CB5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1333B312CA5D39600AD2CB5 /* Model.xcdatamodeld */; };
 		E1333B352CA5D48C00AD2CB5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */; };
 		E1333B372CA5D5AE00AD2CB5 /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */; };
+		E1A56B062CB289AA00CF2C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A56B052CB289AA00CF2C1E /* ContentView.swift */; };
 		E1B72C9B2C7E48E700C8C01E /* StyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */; };
 		E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */; };
 		E1B9B6F62C8321550028DDF7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */; };
@@ -32,6 +33,7 @@
 		E1333B322CA5D39600AD2CB5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
+		E1A56B052CB289AA00CF2C1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1B72C9A2C7E48E700C8C01E /* StyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextField.swift; sourceTree = "<group>"; };
 		E1B72C9C2C7E49A400C8C01E /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
 		E1B9B6F52C8321550028DDF7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				E1FCCEF02C7B134100993225 /* HomeView.swift */,
+				E1A56B052CB289AA00CF2C1E /* ContentView.swift */,
 				E130E6ED2CAF27DB00FCACBF /* HomeViewModel.swift */,
 			);
 			path = HomeView;
@@ -253,6 +256,7 @@
 				E1B72C9D2C7E49A400C8C01E /* StyleButton.swift in Sources */,
 				E1FCCF052C7B1EA000993225 /* AboutRow.swift in Sources */,
 				E1FCCEEF2C7B134100993225 /* FlavorFusionApp.swift in Sources */,
+				E1A56B062CB289AA00CF2C1E /* ContentView.swift in Sources */,
 				E1D1998C2C7CF6C000C9EEF2 /* AddNewRecipeView.swift in Sources */,
 				E130E6EC2CAF244C00FCACBF /* AddNewRecipeViewModel.swift in Sources */,
 				E1333B332CA5D39600AD2CB5 /* Model.xcdatamodeld in Sources */,
