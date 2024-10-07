@@ -28,19 +28,32 @@ struct HomeView: View {
                              : NSPredicate(format: "place CONTAINS %@", newValue)
           }
       }
-       @ObservedObject var vm: HomeViewModel
+    
+    @ObservedObject var vm: HomeViewModel
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                ForEach(dish) { dish in
-                    
+                if vm.dishes.isEmpty {
+                    Text("Brak przepisów")
+                        .bold()
+                } else {
+                    List(vm.dishes) { dish in
+                        DishesRow()
+                    }
                 }
             }
             .navigationTitle("Flavor Fushion")
             .toolbarBackground(.ultraThinMaterial, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .searchable(text: $searchText)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("", systemImage: "plus") {
+                        AddNewRecipeView()
+                    }
+                }
+            }
         }
         .sheet(isPresented: $firstTime) {
             VStack(alignment: .leading) {

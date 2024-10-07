@@ -19,16 +19,16 @@ class AddNewRecipeViewModel: ObservableObject {
     @Published var preparation: String
     @Published var imageDish = Data()
     
-    init() {
-        getAllDishes()
-    }
-
-    func getAllDishes() {
-        dishes = dataService.read()
+    init(dishes: [Dish], id: UUID = UUID(), preparationTime: String, principle: String, preparation: String, imageDish: Data = Data()) {
+        self.dishes = dishes
+        self.id = id
+        self.preparationTime = preparationTime
+        self.principle = principle
+        self.preparation = preparation
+        self.imageDish = imageDish
     }
     
     func createDish() {
         dataService.create(iD: id, principle: principle, preparationTime: preparationTime, preparation: preparation, imageDish: imageDish)
-        getAllDishes()
     }
 }
