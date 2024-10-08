@@ -12,6 +12,7 @@
 		E1333B332CA5D39600AD2CB5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1333B312CA5D39600AD2CB5 /* Model.xcdatamodeld */; };
 		E1333B352CA5D48C00AD2CB5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */; };
 		E1333B372CA5D5AE00AD2CB5 /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */; };
+		E1532C442CB59477005ADA27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1532C422CB59477005ADA27 /* Localizable.strings */; };
 		E1A2F3FF2CB4253F00969721 /* DishesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F3FE2CB4253F00969721 /* DishesRow.swift */; };
 		E1A2F4052CB4286800969721 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F4042CB4286800969721 /* LanguageManager.swift */; };
 		E1A56B062CB289AA00CF2C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A56B052CB289AA00CF2C1E /* ContentView.swift */; };
@@ -34,6 +35,8 @@
 		E1333B322CA5D39600AD2CB5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E1333B342CA5D48C00AD2CB5 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		E1333B362CA5D5AE00AD2CB5 /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
+		E1532C432CB59477005ADA27 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E1532C452CB59497005ADA27 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E1A2F3FE2CB4253F00969721 /* DishesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesRow.swift; sourceTree = "<group>"; };
 		E1A2F4042CB4286800969721 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		E1A56B052CB289AA00CF2C1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +142,7 @@
 				E1FCCEFC2C7B1A1200993225 /* Scenes */,
 				E1FCCEEE2C7B134100993225 /* FlavorFusionApp.swift */,
 				E1FCCEF22C7B134400993225 /* Assets.xcassets */,
+				E1532C422CB59477005ADA27 /* Localizable.strings */,
 				E1FCCEF42C7B134400993225 /* Preview Content */,
 			);
 			path = FlavorFusion;
@@ -232,9 +236,9 @@
 			developmentRegion = pl;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 				pl,
+				"en-GB",
 			);
 			mainGroup = E1FCCEE22C7B134100993225;
 			productRefGroup = E1FCCEEC2C7B134100993225 /* Products */;
@@ -252,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1FCCEF62C7B134400993225 /* Preview Assets.xcassets in Resources */,
+				E1532C442CB59477005ADA27 /* Localizable.strings in Resources */,
 				E1FCCEF32C7B134400993225 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +289,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1532C422CB59477005ADA27 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1532C432CB59477005ADA27 /* pl */,
+				E1532C452CB59497005ADA27 /* en-GB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E1FCCEF72C7B134400993225 /* Debug */ = {

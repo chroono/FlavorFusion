@@ -18,7 +18,6 @@ struct SettingsView: View {
                 AboutRow()
             }
         }
-    
     }
 }
 

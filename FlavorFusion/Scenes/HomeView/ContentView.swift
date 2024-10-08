@@ -14,7 +14,7 @@ struct ContentView: View {
                 HomeView()
             }
             Tab("Add recipe", systemImage: "plus.circle") {
-                AddNewRecipeView()
+               AddNewRecipeView()
             }
             Tab("Settings", systemImage: "gear") {
                 SettingsView()
